@@ -12,4 +12,10 @@ public class EmployeeController {
 	public String getEmployee() {
 		return "Rehan Ali";
 	}
+	
+	@RequestMapping("/page2")
+	@ResponseBody
+	public String getEmployee2() {
+		return "Rehan Azeemi";
+	}
 }
